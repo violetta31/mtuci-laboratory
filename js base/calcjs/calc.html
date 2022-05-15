@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculate</title>
+	<link rel="stylesheet" href="calc.css">
+</head>
+<body>
+	<form id = "calculate">
+		<div id = "header">
+			<h1>Калькулятор</h1>
+			<div id = "next_step">
+				<div class = "next_step1"></div>
+			</div>
+			<div class="counter">
+				<input type="text" readonly="readonly" id = "main-input" value = "0">
+			</div>
+		</div>
+		<div class="buttons">
+			<div id = "buttons_m">
+				<button type="button">MC</button>
+				<button type="button">MR</button>
+				<button type="button">M+</button>
+				<button type="button">M-</button>
+				<button type="button">MS</button>
+				<button type="button">M'</button>
+			</div>
+			<div id="main_buttons">
+				<div class="bs">
+					<button type="button">%</button>
+					<button type="button">&#8730;x</button>
+					<button type="button">x&sup2;</button>
+					<button type="button">1/x</button>
+				</div>
+				<div class="bs">
+					<button type="button">CE</button>
+					<button type="button">C</button>
+					<button type="button">DEL</button>
+					<button type="button">/</button>
+				</div>
+				<div class="bs">
+					<button type="button">7</button>
+					<button type="button">8</button>
+					<button type="button">9</button>
+					<button type="button">*</button>
+				</div>
+				<div class="bs">
+					<button type="button">4</button>
+					<button type="button">5</button>
+					<button type="button">6</button>
+					<button type="button">-</button>
+				</div>	
+				<div class="bs">
+					<button type="button">1</button>
+					<button type="button">2</button>
+					<button type="button">3</button>
+					<button type="button">+</button>
+				</div>
+				<div class="bs">
+					<button type="button">&plusmn;</button>
+					<button type="button">0</button>
+					<button type="button">,</button>
+					<button type="button">=</button>
+				</div>
+			</div>
+		</div>
+	</form>
+	<script src="calc.js"></script>
+</body>
+</html>

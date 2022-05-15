@@ -1,0 +1,90 @@
+body {
+    background-color: #f5eff5;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+#calculate {
+	width: 367px;
+	height: 510px;
+	margin: 70px auto;
+	background: #e6d5e6;
+	border: 3px solid #bf00ff;
+	border-radius: 4px;
+}
+
+.bs button{
+	width: 87px;
+	height: 49px;
+	font-size: 20px;
+	border: none;
+	background: #b86ab8;
+	color: #ffffff;
+	border-radius: 5px;
+}
+
+.bs button:hover {
+	background: #570760;
+	transition: ease 600ms;
+}
+.bs {
+	margin: 3px auto;
+}
+
+#main_buttons {
+	margin: auto 3px;
+}
+
+#buttons_m {
+	display: flex;
+	flex-direction: row;
+}
+
+#buttons_m button {
+	padding: 3px auto;
+	width: 64px;
+	height: 28px;
+	background: #e6d5e6;
+	border: 1px;
+	font-size: 14px;
+}
+#buttons_m button:hover {
+	background: #570760;
+	transition: ease 500ms;
+	color: #ffffff;
+}
+
+#header {
+	height: 160px;
+	padding-top: 7px;
+}
+
+#main-input {
+	height: 80px;
+	width: 352px;
+	background: #e6d5e6;
+	border: none;
+	text-align: end;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+#next_step {
+	margin-top: 15px;
+	text-align: end;
+	width: 352px;
+	height: 17px;
+}
+
+#project_name {
+	padding-left: 15px;
+	height: 20px;
+}
