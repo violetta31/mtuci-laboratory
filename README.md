@@ -1,3 +1,8 @@
 # mtuci-laboratory-1
 Repository for labs
-Лабораторная 1 работа с гитом
+
+js base - лабораторные на  JavaScript
+
+verstka - лабораторная на CSS, HTML, JavaScript
+
+python base - лабораторные на Python
