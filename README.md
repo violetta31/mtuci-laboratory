@@ -1,4 +1,4 @@
-# mtuci-laboratory-1
+# mtuci-laboratory
 Repository for labs
 
 js base - лабораторные на  JavaScript
